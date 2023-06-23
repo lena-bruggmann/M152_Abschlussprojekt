@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+#my-div {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 0.1s ease-out;
+}
+.eye-section {
+    width: 3em;
+    height: 100px;
+    position: absolute;
+    left: 1em;
+    top: 70px;
+}
+.left-eye, .right-eye {
+    background-color: blue;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.75em;
+    position: absolute;
+}
+.right-eye {
+    right: 0.75em;
+}
+.mouth {
+    position: absolute;
+    background-color: black;
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 7px 7px 100px 100px;
+    top: 1em;
+    left: 0.625em;
+}
+
+
